@@ -331,7 +331,8 @@
   body p {font-size: 19px;line-height: 1.7em;}
   .theme-main-menu.sticky-menu.fixed {padding-top: 10px; padding-bottom: 10px;}
   .theme-menu-four:before {width: 175px; height: 175px;}
-  .theme-menu-four .navbar,.theme-menu-one .navbar {margin-left: 0;}
+  /*.theme-menu-four .navbar,.theme-menu-one .navbar {margin-left: 0;}*/
+  .theme-menu-four .navbar,.theme-menu-one .navbar {display: none !important;}
   .theme-main-menu .menu-search-btn {width: 45px; height: 45px; font-size: 18px;}
   .hero-banner-five .hero-heading,.hero-banner-two .hero-heading,.hero-banner-one .hero-heading {font-size: 45px;}
   .hero-banner-two .hero-heading {line-height: 1.25em;}
