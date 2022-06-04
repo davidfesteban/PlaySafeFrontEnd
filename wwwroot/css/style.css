@@ -4737,3 +4737,8 @@ body .btn-eight:hover {
 }
 .user-data-form .agreement-checkbox a:hover {text-decoration: underline; color:var(--prime-three);}
 .user-data-form .btn-eight {line-height: 52px;}
+
+
+html {
+  scroll-behavior: smooth !important;
+}

@@ -7,7 +7,7 @@
       	<meta property="og:site_name" content="PlaySafe">
       	<meta property="og:url" content="https://playsafe.dev/">
       	<meta property="og:type" content="website">
-      	<meta property="og:title" content="PlaySafe - Preventing the present, Growing the future">
+      	<meta property="og:title" content="PlaySafe - Previniendo el presente, Desarrollando el futuro">
 		<meta name='og:image' content='images/assets/ogg.png'>
 		<!-- For IE -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,9 +20,9 @@
 		<meta name="msapplication-navbutton-color" content="#913BFF">
 		<!-- iOS Safari -->
 		<meta name="apple-mobile-web-app-status-bar-style" content="#913BFF">
-		<title>PlaySafe - Preventing the present, Growing the future</title>
+		<title>PlaySafe - Previniendo el presente, Desarrollando el futuro</title>
 		<!-- Favicon -->
-		<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/favicon.ico">
+		<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/favicon2.png">
 		<!-- Main style sheet -->
 		<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
 		<!-- responsive style sheet -->
@@ -83,7 +83,7 @@
 				Search
 			============================================== 
 			-->
-			<div class="offcanvas offcanvas-top theme-search-form bg-three justify-content-center" tabindex="-1" id="offcanvasTop">
+			<div class="offcanvas offcanvas-top theme-search-form bg-three justify-content-center" tabindex="-1" id="offcanvasTop" style="display: none;">
 				<button type="button" class="close-btn tran3s" data-bs-dismiss="offcanvas" aria-label="Close"><i class="bi bi-x-lg"></i></button>
 				<div class="form-wrapper">
 					<form action="#">
@@ -103,8 +103,8 @@
 					<div class="d-flex align-items-center">
 						<div class="logo order-lg-0"><a href="index.html" class="d-block"><img src="images/logo/playsafe-logo.png" alt="" width="140"></a></div>
 
-						<div class="right-widget d-flex align-items-center ms-auto order-lg-3">
-							<div class="call-button d-none d-xl-block me-5">Call us <a href="#">(+880) 321 782 110</a></div>
+						<div class="right-widget d-flex align-items-center ms-auto order-lg-3" style="display: none !important;">
+							<div class="call-button d-none d-xl-block me-5">Call us <a href="#">(+34) 638 419 846</a></div>
 							<button class="menu-search-btn tran3s" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="bi bi-search"></i></button>
 							<a href="contact-us.html" class="send-msg-btn tran3s d-none d-lg-block">Send us Message</a>
 						</div> <!-- /.right-widget -->
@@ -116,82 +116,27 @@
 						    <div class="collapse navbar-collapse" id="navbarNav">
 						    	<ul class="navbar-nav">
 						    		<li class="d-block d-lg-none"><div class="logo"><a href="index.html"><img src="images/logo/logo_01.png" alt="" width="130"></a></div></li>
-							        <li class="nav-item active dropdown">
-							        	<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Home</a>
-							        	<ul class="dropdown-menu">
-							                <li><a href="index.html" class="dropdown-item"><span>User Analysis</span></a></li>
-							                <li><a href="index-2.html" class="dropdown-item"><span>Artificial Intelligence</span></a></li>
-							                <li><a href="index-3.html" class="dropdown-item"><span>Data Science</span></a></li>
-							                <li><a href="index-4.html" class="dropdown-item"><span>Chatboot</span></a></li>
-							                <li><a href="index-5.html" class="dropdown-item"><span>Machine Learning</span></a></li>
-						                </ul>
+							        <li class="nav-item">
+							        	<a class="nav-link" href="#que" role="button">¿Qué?</a>
 						            </li>
-						            <li class="nav-item dropdown">
-							        	<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Pages</a>
-							        	<ul class="dropdown-menu">
-							                <li class="dropdown-submenu dropdown">
-							                	<a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" href="#"><span>About Us</span></a>
-							                	<ul class="dropdown-menu">
-									            	<li><a href="about-us1.html" class="dropdown-item"><span>About Us One</span></a></li>
-										            <li><a href="about-us2.html" class="dropdown-item"><span>About Us Two</span></a></li>
-									            </ul>
-							                </li>
-							                <li class="dropdown-submenu dropdown">
-							                	<a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" href="#"><span>Services</span></a>
-							                	<ul class="dropdown-menu">
-									            	<li><a href="service-V1.html" class="dropdown-item"><span>Service One</span></a></li>
-										            <li><a href="service-V2.html" class="dropdown-item"><span>Service Two</span></a></li>
-										            <li><a href="service-details-V1.html" class="dropdown-item"><span>Service Details</span></a></li>
-									            </ul>
-							                </li>
-							                <li class="dropdown-submenu dropdown">
-							                	<a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" href="#"><span>Our Team</span></a>
-							                	<ul class="dropdown-menu">
-									            	<li><a href="team.html" class="dropdown-item"><span>Team Member</span></a></li>
-										            <li><a href="team-details.html" class="dropdown-item"><span>Team Details</span></a></li>
-									            </ul>
-							                </li>
-							                <li class="dropdown-submenu dropdown">
-							                	<a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" href="#"><span>Other Pages</span></a>
-							                	<ul class="dropdown-menu">
-									            	<li><a href="faq.html" class="dropdown-item"><span>Faq</span></a></li>
-									            	<li><a href="signin.html" class="dropdown-item"><span>Signin</span></a></li>
-									            	<li><a href="sign-up.html" class="dropdown-item"><span>Signup</span></a></li>
-							                		<li><a href="404.html" class="dropdown-item"><span>404 Error</span></a></li>
-									            </ul>
-							                </li>
-							                <li><a href="testimonial.html" class="dropdown-item"><span>Testimonials</span></a></li>
-							                <li><a href="pricing.html" class="dropdown-item"><span>Our Pricing</span></a></li>
-						                </ul>
-						            </li>
-						            <li class="nav-item dropdown">
-							        	<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Portfolio</a>
-							        	<ul class="dropdown-menu">
-							                <li><a href="portfolio-V1.html" class="dropdown-item"><span>Portfolio 3 Column</span></a></li>
-							                <li><a href="portfolio-V2.html" class="dropdown-item"><span>Portfolio 2 Column</span></a></li>
-							                <li><a href="portfolio-V3.html" class="dropdown-item"><span>Portfolio Masonry</span></a></li>
-							                <li><a href="portfolio-details-V1.html" class="dropdown-item"><span>Single Portfolio</span></a></li>
-						                </ul>
-						            </li>
-							        <li class="nav-item dropdown">
-							        	<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Blog</a>
-						                <ul class="dropdown-menu">
-							                <li><a href="blog-V1.html" class="dropdown-item"><span>Grid Layout</span></a></li>
-							                <li><a href="blog-V2.html" class="dropdown-item"><span>Grid With Sidebar</span></a></li>
-							                <li><a href="blog-V3.html" class="dropdown-item"><span>Blog Masonary</span></a></li>
-							                <li><a href="blog-V4.html" class="dropdown-item"><span>Blog Standard</span></a></li>
-							                <li><a href="blog-details.html" class="dropdown-item"><span>Blog Details</span></a></li>
-						                </ul>
+									<li class="nav-item">
+							        	<a class="nav-link" href="#como" role="button">¿Cómo?</a>
 						            </li>
 						            <li class="nav-item">
-							        	<a class="nav-link" href="contact-us.html" role="button">Contact</a>
+							        	<a class="nav-link" href="#faqs" role="button">FAQs</a>
+						            </li>
+									<li class="nav-item">
+							        	<a class="nav-link" href="#precios" role="button">Precios</a>
+						            </li>
+									<li class="nav-item">
+							        	<a class="nav-link" href="#contacto" role="button">Contacto</a>
 						            </li>
 						    	</ul>
 						    	<!-- Mobile Content -->
-						    	<div class="mobile-content d-block d-lg-none">
+						    	<div class="mobile-content d-block d-lg-none" style="display: none !important;">
 						    		<div class="d-flex flex-column align-items-center justify-content-center mt-70">
 						    			<a href="contact-us.html" class="send-msg-btn tran3s mb-10">Send us Message</a>
-						    			<div class="call-button">Call us <a href="#">(+880) 321 782 110</a></div>
+						    			<div class="call-button">Call us <a href="#">(+34) 638 419 846</a></div>
 						    		</div>
 						    	</div> <!-- /.mobile-content -->
 						    </div>
@@ -211,11 +156,12 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xxl-6 col-md-7">
-							<h1 class="hero-heading">Customer Ai Solution for user <span>Analystics.</span></h1>
-							<p class="text-lg mb-50 pt-40 pe-xl-5 md-pt-30 md-mb-40">Sinco delivered blazing fast, striking ai solution lorem quis data user learning analysis.</p>
+							<a href="#precios" class="slogan"><strong>Aprovecha</strong> nuestra oferta de lanzamiento. <i class="fas fa-chevron-right"></i></a>
+							<h1 class="hero-heading">Previniendo el Presente, Desarrollando el Futuro.<span>Juntos.</span></h1>
+							<p class="text-lg mb-50 pt-40 pe-xl-5 md-pt-30 md-mb-40">Tu herramienta de Machine Learning para la detección y el crecimiento de tus clientes.</p>
 							<ul class="style-none button-group d-flex align-items-center">
-								<li class="me-4"><a href="contact-us.html" class="demo-btn ripple-btn tran3s">Request A Demo</a></li>
-								<li><a class="fancybox video-icon tran3s" data-fancybox="" href="https://www.youtube.com/embed/aXFSJTjVjw0"><i class="fas fa-play"></i></a></li>
+								<li class="me-4"><a href="#contacto" class="demo-btn ripple-btn tran3s">Accede a nuestra demo</a></li>
+								<li><a class="fancybox video-icon tran3s" style="display: none !important;" data-fancybox="" href="https://www.youtube.com/embed/aXFSJTjVjw0"><i class="fas fa-play"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -237,16 +183,16 @@
 				Feature Section Seventeen
 			============================================== 
 			-->
-			<div class="fancy-feature-seventeen position-relative mt-160 xl-mt-50">
+			<div class="fancy-feature-seventeen position-relative mt-160 xl-mt-50" id="que">
 				<div class="container">
 					<div class="row align-items-center">
 						<div class="col-xl-6 col-lg-5" data-aos="fade-right">
 							<div class="title-style-three text-center text-lg-start">
-								<h2 class="main-title"><span>Services</span> We Provide with Quality.</h2>
+								<h2 class="main-title"><span>Machine Learning</span> con un toque de humanidad.</h2>
 							</div> <!-- /.title-style-three -->
 						</div>
 						<div class="col-xl-6 col-lg-7" data-aos="fade-left">
-							<p class="m0 text-center text-lg-start md-pt-30">NLP entails applying algorithms to identify and extract rules such that the unstructured language data is converted.</p>
+							<p class="m0 text-center text-lg-start md-pt-30">Nuestra inteligencia artificial te previene de infracciones a la vez que detecta dónde están tus clientes más valiosos.</p>
 						</div>
 					</div>
 
@@ -254,25 +200,25 @@
 						<div class="col-lg-4 col-md-6" data-aos="fade-right">
 							<div class="block-style-twelve mt-30 ps-lg-0 pe-xl-5 me-xl-2">
 								<div class="icon d-flex align-items-end"><img src="images/icon/icon_31.svg" alt=""></div>
-								<h5><a href="service-details-V1.html">Data Science</a></h5>
-								<p>Convert data noise intelligent insights for competitive differentiation qulaity check equlity.</p>
-								<a href="service-details-V1.html" class="tran3s more-btn"><img src="images/icon/icon_20.svg" alt=""></a>
+								<h5><a href="#contacto">Crecimiento Potenciado</a></h5>
+								<p>Detección de clientes de alto potencial a la vez que te sugerimos acciones para su crecimiento.</p>
+								<a href="#contacto" class="tran3s more-btn"><img src="images/icon/icon_20.svg" alt=""></a>
 							</div> <!-- /.block-style-twelve -->
 						</div> <!-- /.item -->
 						<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
 							<div class="block-style-twelve mt-30 active">
 								<div class="icon d-flex align-items-end"><img src="images/icon/icon_32.svg" alt=""></div>
-								<h5><a href="service-details-V1.html">Customer Support</a></h5>
-								<p>Convert data noise to intelligent insights for competitive differentiation qulaity check.</p>
-								<a href="service-details-V1.html" class="tran3s more-btn"><img src="images/icon/icon_20.svg" alt=""></a>
+								<h5><a href="#contacto">Seguridad Garantizada</a></h5>
+								<p>Nuestro sistema está validado por la regulación más actual. Nos hacemos responsables de la sanción.</p>
+								<a href="#contacto" class="tran3s more-btn"><img src="images/icon/icon_20.svg" alt=""></a>
 							</div> <!-- /.block-style-twelve -->
 						</div> <!-- /.item -->
 						<div class="col-lg-4 col-md-6" data-aos="fade-left">
 							<div class="block-style-twelve mt-30">
 								<div class="icon d-flex align-items-end"><img src="images/icon/icon_33.svg" alt=""></div>
-								<h5><a href="service-details-V1.html">Machine Learning</a></h5>
-								<p>Convert data noise intelligent insights for competitive differentiation qulaity check equlity.</p>
-								<a href="service-details-V1.html" class="tran3s more-btn"><img src="images/icon/icon_20.svg" alt=""></a>
+								<h5><a href="#contacto">Prevención y Detección</a></h5>
+								<p>Te prevenimos de actividades fraudulentas y de clientes con juego no responsable. Juntos somos más.</p>
+								<a href="#contacto" class="tran3s more-btn"><img src="images/icon/icon_20.svg" alt=""></a>
 							</div> <!-- /.block-style-twelve -->
 						</div> <!-- /.item -->
 					</div>
@@ -293,16 +239,16 @@
 						<div class="col-xl-5 col-lg-6 col-md-7 ms-auto">
 							<div class="block-style-two" data-aos="fade-left">
 								<div class="title-style-three">
-									<div class="sc-title">Over 150k+ Client</div>
-									<h2 class="main-title">Target <span>Audience</span> for your business.</h2>
+									<div class="sc-title">Más de 25 años en el sector</div>
+									<h2 class="main-title">Centra el <span>Foco</span> en aquello que te da valor.</h2>
 								</div> <!-- /.title-style-three -->
-								<p class="pt-20 pb-25 lg-pb-20">AI technology is perfect for best business solutions & we offer help to achieve your goals.</p>
+								<p class="pt-20 pb-25 lg-pb-20">¿Por qué es mejor una inteligencia artificial que el método clásico?.</p>
 								<ul class="style-none list-item color-rev">
-									<li>Various analysis options.</li>
-									<li>Page Load (time, size, number of requests).</li>
-									<li>Advance Data analysis operation.</li>
+									<li>Seguridad y anonimidad.</li>
+									<li>Velocidad de la detección.</li>
+									<li>Fiabilidad de la predicción.</li>
 								</ul>
-								<a href="about-us2.html" class="btn-eight mt-50 lg-mt-30">More about us</a>
+								<a href="#faqs" class="btn-eight mt-50 lg-mt-30">¿Tienes preguntas?</a>
 							</div> <!-- /.block-style-two -->
 						</div>
 					</div>
@@ -329,30 +275,30 @@
 				Feature Section Nineteen
 			============================================== 
 			-->
-			<div class="fancy-feature-nineteen position-relative pt-130 lg-pt-80">
+			<div class="fancy-feature-nineteen position-relative pt-130 lg-pt-80" id="como">
 				<div class="container">
 					<div class="row">
 						<div class="col-xxl-5 col-lg-6 col-md-7">
 							<div class="block-style-thirteen" data-aos="fade-right">
 								<div class="title-style-three pb-15">
-									<div class="sc-title">WORK PROCESS</div>
-									<h2 class="main-title">How sinco <span>process</span> & works.</h2>
+									<div class="sc-title">NUESTRO PROCESO</div>
+									<h2 class="main-title">Cómo nuestra <span>inteligencia artificial</span> funciona & predice.</h2>
 								</div> <!-- /.title-style-three -->
 								<ul class="style-none list-item">
 									<li data-aos="fade-up">
 										<div class="numb tran3s">1</div>
-										<h6>Frame the Problem</h6>
-										<span>Learn content by interacting with an expert lesson or watching a video.</span>
+										<h6>Evoluciona de lo Clásico</h6>
+										<span>Te ayudamos a adaptar tu plataforma cumpliendo las regulaciones.</span>
 									</li>
 									<li data-aos="fade-up" data-aos-delay="50">
 										<div class="numb tran3s">2</div>
-										<h6>Collect the Data</h6>
-										<span>Practice what you learned on realistic SAT test questions.</span>
+										<h6>Marca el Entorno</h6>
+										<span>Envía de manera anónima y centralizada los datos que quieras analizar.</span>
 									</li>
 									<li data-aos="fade-up" data-aos-delay="100">
 										<div class="numb tran3s">3</div>
-										<h6>Process the Data</h6>
-										<span>Have to be repudiated annoyances accepted the wise lorem ispum sample text.</span>
+										<h6>Realiza las Acciones</h6>
+										<span>Entregamos las predicciones y sugerimos las acciones necesarias.</span>
 									</li>
 								</ul>
 							</div> <!-- /.block-style-thirteen -->
@@ -388,20 +334,20 @@
 						<div class="row justify-content-center">
 							<div class="col-md-4 col-sm-6" data-aos="fade-up">
 								<div class="counter-block-one text-center mb-20">
-									<div class="main-count"><span class="counter">20</span>mil</div>
-									<p>Human labor hours saved <br> with help of AI</p>
+									<div class="main-count"><span class="counter">185</span> horas</div>
+									<p>De trabajo que ahorras<br> con Machine Learning</p>
 								</div> <!-- /.counter-block-one -->
 							</div>
 							<div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="100">
 								<div class="counter-block-one text-center mb-20">
-									<div class="main-count"><span class="counter">1.3</span>b+</div>
-									<p>Generated revenue by <br>AI Solutions</p>
+									<div class="main-count"><span class="counter">5</span> min</div>
+									<p>Nuestro sistema es<br>eficazmente rápido</p>
 								</div> <!-- /.counter-block-one -->
 							</div>
 							<div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="200">
 								<div class="counter-block-one text-center mb-20">
-									<div class="main-count">$<span class="counter">15</span>mil+</div>
-									<p>Saved operational costs <br>due to AI</p>
+									<div class="main-count"><span class="counter">350</span> mil</div>
+									<p>Euros en sanciones <br>prevenidos</p>
 								</div> <!-- /.counter-block-one -->
 							</div>
 						</div>
